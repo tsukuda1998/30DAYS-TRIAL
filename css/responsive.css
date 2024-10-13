@@ -1,0 +1,117 @@
+@media (min-width: 768px) {
+  #open,
+  #close {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+  }
+
+  .title {
+    padding: 0.5rem 1.5rem;
+  }
+
+  #open,
+  #close{
+    display: none;
+  }
+
+  .title h1 {
+    margin: 0;
+  }
+
+  .sp-menu-list li{
+    display: none;
+  }
+
+  ul.sp-menu-list {
+    display: none;
+  }
+
+  .pc-menu-list {
+    position: relative;
+    top: 0.2rem;
+    display: block;
+  }
+
+  .pc-menu-list ul {
+    display: flex;
+    list-style: none;
+  }
+
+  .pc-menu-list li {
+    padding: 0 1rem;
+  }
+
+  .pc-menu-list li a {
+    text-decoration: none;
+  }
+
+  #introduction {
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .br-esc {
+    display: none;
+  }
+
+  .br-add {
+    display: block;
+  }
+
+  #feature-1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 20px;
+    gap: 10px;
+  }
+
+  #feature-1 h2 {
+    width: 100%;
+  }
+
+  #feature-1 img {
+    width: 45%;
+  }
+
+  #feature-1 p {
+    width: 45%;
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .card {
+    width: 28%;
+    min-width: 280px;
+    box-sizing: border-box;
+  }
+
+  #feature-3 p {
+    margin-bottom: 0;
+  }
+
+  #feature-3 input {
+    width: 60%;
+  }
+
+  #feature-3 button {
+    width: 50%;
+  }
+
+  footer small {
+    text-align: end;
+  }
+
+}

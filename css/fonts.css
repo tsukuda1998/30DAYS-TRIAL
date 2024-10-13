@@ -1,0 +1,94 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 20px;
+  }
+}
+body {
+  color: #005;
+}
+
+header h1 {
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 0.02rem;
+}
+
+.menu-list {
+  font-size: 0.86rem;
+}
+
+.menu-list li {
+  color: #000;
+  font-weight: bold;
+}
+
+.menu-list a:visited {
+  color: #000;
+}
+
+#open {
+  font-size: 2.3rem;
+}
+
+#close {
+  font-size: 2.3rem;
+}
+
+#introduction h2 {
+  font-size: 2.3rem;
+  font-weight: 900;
+  letter-spacing: 0.03rem;
+}
+
+#introduction p {
+  font-size: 1.08rem;
+}
+
+#feature-1 p {
+  font-weight: 500;
+}
+
+#feature-2 p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+#feature-3 p {
+  font-weight: 500;
+}
+
+.section-heading {
+  font-size: 1.8rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+#feature-3 input {
+  font-size: 1.15rem;
+}
+
+.email-input::placeholder {
+  text-indent: 0.5rem;
+}
+
+#feature-3 button {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+footer small {
+  font-size: 0.7rem;
+  text-align: center;
+}
+
